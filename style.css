@@ -47,7 +47,7 @@ p{
 }
 }
 .gangofthree{
-    color:blue;
+    color:rgb(56, 56, 124);
 }
 
 
@@ -61,3 +61,32 @@ p{
     
 
 }
+.font-color{
+    color:white;
+    text-decoration: none;
+
+}
+.font-color:hover {
+    color:#1a4568;
+}
+.blink {
+  animation: blinker 1s step-end infinite;
+  text-align: center;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.blink{
+    color:#751717;
+  font-family: Arial,  sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card{
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 30px;
+    font-weight: bold;
+
+ }

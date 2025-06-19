@@ -81,7 +81,7 @@ p{
 .blink{
     color:#751717;
   font-family: Arial,  sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;
 }
 .card{
@@ -89,4 +89,19 @@ p{
     padding: 30px;
     font-weight: bold;
 
+ }
+ .gallary{
+    font-size:30px;
+    text-align: center;
+ }
+ .paragh{
+    text-align: center;
+ }
+ .box{
+    color:#751717;
+    width: 100px;
+    height:10px;
+ }
+ .card-text{
+     font-family: "Roboto Condensed", sans-serif;
  }
